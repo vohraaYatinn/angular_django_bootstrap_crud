@@ -1,0 +1,18 @@
+<table class="table " >
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">TASK</th>
+        <th scope="col">ACTIONS</th>
+      </tr>
+    </thead>
+    <tbody >
+      <tr *ngFor="let value of tododata">
+        <td>{{value.id}}</td>
+        <td>{{value.todo_name}}</td>
+        <td class="btntd"><button type="button" class="btn btn-success" routerLink="/edit/{{value.id}}">Edit</button><button (click)="deleteit(value.id)" type="button" class="btn btn-danger">Delete</button></td>
+        
+      </tr>
+      
+    </tbody>
+  </table>

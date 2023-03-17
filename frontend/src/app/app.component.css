@@ -1,0 +1,9 @@
+.mid{
+    height: 70vh;
+    overflow: auto;
+}
+.footerit{
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+}
