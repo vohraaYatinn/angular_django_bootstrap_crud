@@ -18,3 +18,4 @@ and open a new terminal , cd .. cd frontend npm i (for installing packages) npm 
 #if you face any doubt, or if you want to learn full stack development you can contact me
 
 www.instagram.com/vohra_yatin
+email: vohrayatin9@gmail.com
